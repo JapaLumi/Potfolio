@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(img/fundo2.png);
+    background-attachment: fixed;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.open-menu-btn,
+.close-menu-btn {
+    cursor: pointer;
+    background-color: #010839;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #010839;
+    width: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #030d5e;
+}
+
+.hidden {
+    display: none;
+}
+
+.texto{
+    margin-left: 60%;
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 9%;
+    font-size:large;
+    display:flexbox;
+}
+
+.p{
+    margin-left: 55%;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.p2{
+    margin-left: 53%;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.github{
+    opacity: 0.5;
+    margin-left: 63%;
+    margin-top: 2%;
+    display: block;
+}
+
+.img{
+    opacity: 0.5;
+}
+
+.mn{
+    opacity: 0.5;
+    margin-left: 60%;
+    margin-top: 7%;
+    font-size:x-small;
+    color: #fff;
+}
+
+.contatos{
+    margin-left: 63%;
+    opacity: 0.7;
+    margin-top: 2%;
+    gap: 2%;
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    padding: 1%;
+    margin-left: 30%;
+}
+
+.project {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin: 10px 0 0;
+    color: #fff;
+    opacity: 0.5;
+    font-size: small;
+    font-weight: 100;
+    margin-left: 20%;
+}
+
+.project-details {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-details h2 {
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    margin-bottom: 20px;
+}
+
+.project-details button {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.project-details button:hover {
+    background-color: #ccc;
+}
+
